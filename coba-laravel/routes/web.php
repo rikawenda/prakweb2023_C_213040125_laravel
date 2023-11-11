@@ -40,14 +40,14 @@ Route::get('posts/{post:slug}', [PostController::class, 'show']);
 Route::get('/categories', function() {
     return view('categories', [
         'title' => 'Post Categories',
-        'categories' => Category::all
+        'categories' => Category::all()
     ]);
 });
 
 Route::get('/categories/{category:slug}', function(Category $category) {
     return view('category', [
         'title' => $category->name,
-        'post' => $category->post,
+        'posts' => $category->posts,
         'category' => $category->name
     ]);
 });
