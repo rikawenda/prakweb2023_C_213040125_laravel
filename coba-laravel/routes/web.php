@@ -20,16 +20,18 @@ use App\Models\User;
 
 Route::get('/', function () {
     return view('home', [
-        "title" => "Home"
+        "title" => 'Home',
+        "active" => 'Home'
     ]);
 });
 
 Route::get('/about', function () {
     return view('about', [
-        "title" => "About",
-        "name" => "Rika Febriyanti E. Wenda",
-        "email" => "rika14322@gmail.com",
-        "image" => "wenda.jpg"
+        "title" => 'About',
+        "active" => 'About',
+        "name" => 'Rika Febriyanti E. Wenda',
+        "email" => 'rika14322@gmail.com',
+        "image" => 'wenda.jpg'
     ]);
 });
 
@@ -57,6 +59,7 @@ Route::get('/categories/{category:slug}', function(Category $category) {
 Route::get('/authors/{author:username}', function(User $author) {
    return view('posts', [
         'title' => "Post By Author : $author->name",
+        'active' => "posts",
         'posts' => $author->post->load('category', 'author')
    ]); 
 });
