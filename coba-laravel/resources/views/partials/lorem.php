@@ -14,3 +14,7 @@ Category::create([
     'name'=> 'Web Design',
     'slug'=> 'web-design'
     ])
+
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam beatae dolorum ipsa veritatis, quae aspernatur assumenda ea, tempora reprehenderit placeat fugit et deleniti culpa. 
+    
+    Atque commodi expedita beatae, eos corrupti ut nesciunt architecto itaque soluta, magnam facilis? Saepe maxime quaerat, dolores incidunt doloribus placeat fugiat corrupti ratione adipisci hic officia voluptas similique eaque modi facere ducimus voluptatum ipsum exercitationem rem itaque, voluptate eos culpa voluptatibus? Fugiat deserunt nostrum magnam aspernatur explicabo, odio voluptatem. Quas iste commodi ab.
