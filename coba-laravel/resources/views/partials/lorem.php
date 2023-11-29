@@ -18,3 +18,6 @@ Category::create([
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam beatae dolorum ipsa veritatis, quae aspernatur assumenda ea, tempora reprehenderit placeat fugit et deleniti culpa. 
     
     Atque commodi expedita beatae, eos corrupti ut nesciunt architecto itaque soluta, magnam facilis? Saepe maxime quaerat, dolores incidunt doloribus placeat fugiat corrupti ratione adipisci hic officia voluptas similique eaque modi facere ducimus voluptatum ipsum exercitationem rem itaque, voluptate eos culpa voluptatibus? Fugiat deserunt nostrum magnam aspernatur explicabo, odio voluptatem. Quas iste commodi ab.
+
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam eligendi ipsum dolor, sequi deleniti, dignissimos rem, iure soluta incidunt odio praesentium dolorum repellat odit molestias exercitationem dolorem vel saepe eveniet nulla animi facilis vero esse non? Accusamus magnam rem ipsam? Ab eos suscipit, beatae, natus aperiam laudantium veritatis atque mollitia deleniti tenetur enim nesciunt minus quasi accusantium qui accusamus perspiciatis. Placeat illo delectus omnis cupiditate.
